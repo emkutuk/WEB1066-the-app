@@ -1,7 +1,5 @@
 language: java
-jdk: oraclejdk8
-
-Build dist: trusty
+jdk: openjdk8
 
 install:
   - ./gradlew clean jar
